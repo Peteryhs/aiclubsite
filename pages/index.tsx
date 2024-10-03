@@ -1,4 +1,4 @@
-import { LandingPage } from "@/components/landing-page.tsx"
+import { LandingPage } from "@/components/landing-page"
 
 
 export default function Home() {
