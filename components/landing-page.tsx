@@ -213,12 +213,18 @@ export function LandingPage() {
             transition={{ duration: 0.6, delay: 0.4, ease: 'easeOut' }}
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
-            <Button className="bg-[#7289DA] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#5b6eae] transition duration-300">
-              Join Discord
-            </Button>
-            <Button className="bg-[#4285F4] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#3367D6] transition duration-300">
-              Join Google Classroom
-            </Button>
+<a href="https://discord.gg/umWMEzjUbx" target="_blank" rel="noopener noreferrer">
+  <Button className="bg-[#7289DA] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#5b6eae] transition duration-300">
+    Join Discord
+  </Button>
+</a>
+
+<a href="https://classroom.google.com/c/NzA1ODUyNzc3MDQy?cjc=kq2ipvk" target="_blank" rel="noopener noreferrer">
+  <Button className="bg-[#4285F4] text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-[#3367D6] transition duration-300">
+    Join Google Classroom
+  </Button>
+</a>
+
           </motion.div>
         </div>
       </section>
